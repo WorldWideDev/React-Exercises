@@ -1,0 +1,30 @@
+.log {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid lightgrey;
+    width: 45%;
+    vertical-align: top;
+}
+.log > div {
+    overflow-y: scroll;
+    height: 100px;
+    float: clear;
+}
+.log > hr, .log p {
+    margin: 5px;
+}
+.log > h1 {
+    font-size: 1.75em;
+    margin: 0;
+    display: inline-block;
+}
+.log > h3{
+    font-size: 1.35em;
+    float: right; 
+    position: relative;
+    top: 5px;
+}
+span {
+    color: salmon;
+}

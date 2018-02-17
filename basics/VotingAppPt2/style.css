@@ -1,0 +1,28 @@
+.option {
+    margin: auto;
+    text-align: center;
+    width: 350px;
+    height: 60px;
+    border: solid 1px;
+    padding: 5px;
+}
+.option>* {
+    display: inline-block;
+    margin: 0;
+}
+.option>h1 {
+    margin: 0px 40px;
+}
+.option>h3 {
+    float: left;
+    border-radius: 50%;
+    width: 20%;
+    height: 100%;
+    border: solid;
+    line-height: 55px;
+    position: relative;
+    top: -3px;
+}
+.option>button {
+    float: right;
+}

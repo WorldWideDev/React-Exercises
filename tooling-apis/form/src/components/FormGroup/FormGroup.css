@@ -1,0 +1,14 @@
+.form-group span {
+    color: red;
+    font-weight:bold;
+}
+.form-group label {
+    font-weight: bold;
+    display: block;
+}
+input.invalid {
+    border: solid #d77b7b 1px;
+}
+input.invalid:focus {
+    border: solid #d77b7b 2px;
+}
