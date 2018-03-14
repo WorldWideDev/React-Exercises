@@ -1,0 +1,35 @@
+Modules:
+
+    Redux
+
+        Redux to React
+            `store.js` is listed above two separeate code snipped.  rename first to `reducer.js`
+
+Assignments:
+
+    Client-Side Routing
+    
+        Memory Lane
+            Assignment mentions a previous "Bubble" component, which doesn't seem to 
+                exist in the current state of curriculum
+            Update that reference to something else, this aspect of the assignment isn't hugely
+                important w/r/t the particular component used
+
+        ShintoCoin
+            Wireframe references "Service", assuming this an Angular reference?
+            Rename this to something like "state", although which component's state holds this value
+            is up to interpretation.
+
+            After some trial/error/research, this assignment seems only reasonable when used with 
+            Redux/some other state management.
+
+            Aside from a good amount of "callback hell" required to pass a mine/sell/buy transaction up to app state, this
+            also would require passing props to a Route component, with the requisite callback.  Something that seems outside
+            the scope of what we want to teach with react-router after having just seen it.
+    
+    Redux
+
+        People Search
+            Assignment asks you to "route" to /profile, when this module is placed before Client-Side Routing (ReactJSdec2017)
+            Either Redux needs to go back to being listed AFTER Client-Side routing, or these assignments need to be modified slightly, the issue with
+            swapping back, is that a few assignments in Client-Side Routing seem to rely on a redux-style architecture. 
